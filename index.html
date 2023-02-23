@@ -19,34 +19,43 @@
     <p>Este repositorio tiene varias ramas cada una con distintos commits. Lístalas e indica qué significa el asterisco </p>
 <figure><img src="./images/git-branch.png" alt="Imagen de una rama main y sus ramas">Figuras de ramas (branch)</figure>
 
-    <h1>git checkout</h1>
+
+    <h2>git checkout</h2>
     <p> Cambia de rama y fíjate en el sistema de archivos (working tree) cómo aparecen y desaparecen
-        los ficheros. Siguen estando ahí, pero en cada rama (piensa en las ramas como mundos paralelos) 
-        los contenidos son distintos.
+        los ficheros. Siguen estando ahí, pero en cada rama
+        los contenidos son distintos: piensa en las ramas como mundos paralelos
     </p>
 
     <h2>git add/git commit</h2>
+
     <p>En cada rama debes hacer una modificación: añadir pantallazos e introducirlos en el este fichero index </p>
     <figure><img src="./images/git-add-commit.png" alt="Imagen de los 3 estados de un archivo"> <figcaption>Esta imagen representa los tres estados de un archivo en el repositorio local antes de pasar al repositorio remoto</figcaption></figure>
 
 
     <h2>git rm</h2>
     <p>En una de las ramas hay muchos ficheros temporales que debes borrar. Asegúrate de que sólo borras los imprescidibles</p>
+    <h2>git rm</h2>
+    <p>En una de las ramas hay muchos ficheros temporales que debes borrar. Asegúrate de que sólo borras los
+        imprescidibles</p>
 
     <h2>git merge</h2>
+
     <p>Tras realizar los distintos commits debes fusionar cada rama a la rama principal. </p>
 
     <h2>git log --oneline --decorate --graph --all</h2>
     <p>Muestra el estado de los commits de forma gráfica</p>
 
     <h2>git checkout -b </h2>
+
     <p>Crea una rama nueva y añade  contenido relacionado con git</p>
 
     <h2>git branch --no-merged</h2>
     <p>Muestra las ramas que todavía no se han mergeado con respecto a la rama actual</p>
+    <figure><img src="./git-branch-no-merged.webp" alt="Imagen de un repositorio git donde no se ha realizado el merge de ramas"></figure>
 
     <h2>git push origin main</h2>
     <p>Una vez fusionadas/mergeadas todas las ramas sube el repositorio local en el remoto</p>
+
 </body>
 
 </html>
